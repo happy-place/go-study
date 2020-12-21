@@ -1,0 +1,7 @@
+###
+GET http://localhost:8080/user?name=tom&pass=123
+
+###
+GET http://localhost:8080/user?name=tom&pass=123&id=1
+
+###

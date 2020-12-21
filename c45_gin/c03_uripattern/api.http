@@ -1,0 +1,10 @@
+###
+GET http://localhost:8081/user/a
+
+###
+GET http://localhost:8081/user/ab
+
+###
+GET http://localhost:8081/user/ac
+
+###

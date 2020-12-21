@@ -1,0 +1,24 @@
+# curl -i http://httpbin.org/ip
+GET http://httpbin.org/ip
+
+###
+
+###
+GET http://localhost:8081/user?name=tom&age=10&sex=男
+
+###
+GET http://localhost:8081/user?name=lily&age=23
+
+###
+POST http://localhost:8081/user
+Content-Type: application/x-www-form-urlencoded
+
+name=tom&sex=23
+
+###
+POST http://localhost:8081/user
+Content-Type: application/x-www-form-urlencoded
+
+name=lily
+
+###

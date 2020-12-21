@@ -1,0 +1,3 @@
+/usr/local/go/bin/go build -o /private/var/folders/n1/mp08c98j4pjd62f8l1r_lkz00000gn/T/___go_build_p56_read_file_go /Users/huhao/softwares/go_proj/go-example/p56-read-file.go #gosetup
+/private/var/folders/n1/mp08c98j4pjd62f8l1r_lkz00000gn/T/___go_build_p56_read_file_go
+data

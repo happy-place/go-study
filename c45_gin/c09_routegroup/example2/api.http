@@ -1,0 +1,27 @@
+### 正常
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+name=a123456789&uid=1&age=23&date=2020-11-01
+
+### 异常
+POST http://localhost:8080/user
+Content-Type: application/x-www-form-urlencoded
+
+name=a123456789&uid=2&age=23&date=2020-11-01
+
+
+
+### 正常 ip: localhost
+POST http://localhost:8080/api/user
+Content-Type: application/x-www-form-urlencoded
+
+name=a123456789&uid=1&age=23&date=2020-11-01
+
+### 异常IP访问ip: 192.168.31.182
+POST http://192.168.31.182:8080/api/user
+Content-Type: application/x-www-form-urlencoded
+
+name=a123456789&uid=1&age=23&date=2020-11-01
+
+###

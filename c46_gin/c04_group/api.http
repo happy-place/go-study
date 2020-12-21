@@ -1,0 +1,10 @@
+###
+GET http://localhost:8080/admin/ping
+
+###
+GET http://localhost:8080/admin/welcome
+
+###
+GET http://localhost:8080/admin/getquery
+
+###
